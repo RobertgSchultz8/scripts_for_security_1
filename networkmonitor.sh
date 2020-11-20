@@ -1,3 +1,4 @@
+#should be set to run at midnight every night
 #adding the date the script was run to the output file name allows keeping track of server access over multiple days
 NOW=$(date +"%b-%d-%y")
 tcpdump -q -w accesslog-$NOW.pcap &
